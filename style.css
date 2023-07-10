@@ -1,0 +1,27 @@
+:root {
+    --mavi: #6bc2f1;
+}
+header { background: url('img/headerbg.jpg') center/cover; }
+#img1 { background: url('img/img1.jpg') center/cover; }
+#img2 { background: url('img/img2.jpg') center/cover; }
+body{
+    overflow-x: hidden;
+}
+.bg-mavi { background-color: var(--mavi) }
+.bg-footer {background-color:#072035;}
+.text-mavi { color: var(--mavi) }
+.min-vh-50 { min-height: 50vh;}
+.border-primary{
+    border: 1px solid var(--mavi);
+}
+/* .carousel {
+    text-align: center;
+} */
+@media (width >= 992px){
+    .px-md-10 {
+        padding-left: 160px !important;
+        padding-right: 160px !important;
+    }
+}
+#img1:hover, #img2:hover { opacity: .5;}
+#img1:hover a, #img2:hover a { display: initial!important;}
